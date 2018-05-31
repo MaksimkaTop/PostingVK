@@ -14,9 +14,6 @@ class Application : android.app.Application() {
                 val intent = Intent(this@Application, MainActivity::class.java)
                 intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
                 startActivity(intent)
-
-
-                // VKAccessToken is invalid
             }
         }
     }
